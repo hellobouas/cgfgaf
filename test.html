@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red and Black Sign In Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 50px auto;
+            border: 5px solid #f00;
+            padding: 20px;
+        }
+
+        .logo {
+            text-align: center;
+            color: #fff;
+            font-size: 40px;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        .form input {
+            width: 80%;
+            height: 40px;
+            margin: 10px;
+            border: none;
+            outline: none;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .form input[type="text"] {
+            background-color: #fff;
+        }
+
+        .form input[type="password"] {
+            background-color: #fff;
+        }
+
+        .form input[type="submit"] {
+            background-color: #f00;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .form input[type="submit"]:hover {
+            opacity: 0.8;
+        }
+
+        .form p {
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .form p a {
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>Red and Black</h1>
+        </div>
+        <div class="form">
+            <form action="#" method="POST">
+                <input type="text" name="username" placeholder="Enter your username" required>
+                <input type="password" name="password" placeholder="Enter your password" required>
+                <input type="submit" value="Sign In">
+                <p>Don't have an account? <a href="#">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

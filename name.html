@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>unkown for now!</title>
+
+    <style>
+        
+        body{
+            background-color: black;
+        }
+        .screen{
+            background-color: white;
+            border-style: solid;
+            border-color: beige;
+            width: 200px;
+            height: 200px;
+            margin: 0;
+        }
+        #numbers{
+
+            margin-top: 25vh;
+            width: 375px;
+            border-style: solid;
+            border-color: rgb(0, 0, 0);
+            height: 468px;
+            border-radius: 25px;
+            border-color: white;
+        }
+        button{
+            width: 90px;
+            height: 90px;
+            font-size: 28px;
+            background-color: rgb(68, 67, 67);
+            color: white;
+            border-radius: 100px;
+            margin-bottom: 0px;
+            margin-top: 3px;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+        button:active{
+            opacity: 0.5;
+        }
+        .signs{
+            background-color: orange;
+        }
+        .On{
+            display: inline-block;
+            height: 25px;
+            width: 40px ;
+            background-color: green;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+        .Off{
+            display: inline-block;
+            height: 25px;
+            width: 40px;
+            background-color: rgb(255, 8, 8);
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 40px;
+        }
+        p{
+            display: inline-block;
+            font-size: 20px;
+            margin: 0;
+            color: white;
+        }
+        .clear{
+            width: 375px;
+            margin-bottom: 0;
+            font-size: 60px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <center>
+
+    
+    <div id="numbers">
+    <script>
+        let numbs = '';
+        let clear1 = ''; 
+    </script>
+
+
+    <div id="numbs">
+
+        <button onclick="
+        numbs = numbs + '1';
+        console.log(numbs)
+        ">
+            1
+        </button
+        >
+
+        <button  onclick="
+        numbs = numbs + '2';
+        console.log(numbs)
+        ">
+            2
+        </button>
+
+        <button  onclick="
+        numbs = numbs + '3';
+        console.log(numbs)
+        ">
+            3
+        </button>
+
+        <button class="signs" onclick="
+        numbs = numbs + ' + ';
+        console.log( numbs)
+        ">
+            +
+        </button>
+    </div>
+
+
+    <div id="numbs">
+
+        <button onclick="
+        numbs = numbs + '4';
+        console.log(numbs)
+        ">
+            4
+        </button
+        >
+
+        <button  onclick="
+        numbs = numbs + '5';
+        console.log(numbs)
+        ">
+            5
+        </button>
+
+        <button  onclick="
+        numbs = numbs + '6';
+        console.log(numbs)
+        ">
+            6
+        </button>
+
+        <button class="signs" onclick="
+        numbs = numbs + ' - ';
+        console.log( numbs)
+        ">
+            -
+        </button>
+    </div>
+
+
+    <div id="numbs">
+
+        <button onclick="
+        numbs = numbs + '7';
+        console.log(numbs)
+        ">
+            7
+        </button
+        >
+
+        <button  onclick="
+        numbs = numbs + '8';
+        console.log(numbs)
+        ">
+            8
+        </button>
+
+        <button  onclick="
+        numbs = numbs + '9';
+        console.log(numbs)
+        ">
+            9
+        </button>
+
+        <button class="signs" onclick="
+        numbs = numbs + ' * ';
+        console.log( numbs)
+        ">
+            *
+        </button>
+    </div>
+
+    <div id="numbs">
+        <button onclick="
+        numbs = numbs + '0';
+        console.log(numbs)"
+        >
+            0
+        </button onclick="
+        numbs = numbs + '';
+        console.log(numbs)">
+        
+        <button  onclick="
+        numbs = numbs + '.';
+        console.log(numbs)">
+            .
+        </button>
+
+         <button onclick="
+        numbs = eval(numbs) 
+        console.log(numbs)
+        if (clear1 > 122){numbs = ''}
+         else{
+            numbs = numbs
+        }
+        ">
+            =
+        </button>
+        <button class="signs" onclick="
+        numbs = numbs + '/';
+        console.log(numbs)">
+            /
+        </button>
+
+        <p><button class="clear" onclick="
+            numbs = '';
+            console.log('Cleared!')
+            ">
+            Clear
+        </button></p>
+    </div>
+</div>
+
+<p> Auto Clear 
+    </p>
+    <button class="On"  onclick="
+    clear1 = 1444;
+    console.log('auto clear is now working!')
+    numbs = '';
+
+    ">yes</button>
+
+<button class="Off" onclick="
+clear1 = 44;
+console.log('auto clear has stopped!')
+numbs = '';
+">no</button>
+</center>
+
+<script>
+    
+</script>
+
+    
+</body>
+</html>

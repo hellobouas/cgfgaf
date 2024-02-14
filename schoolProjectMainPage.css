@@ -1,0 +1,316 @@
+body{
+    background-color: rgb(238, 237, 237);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.taskbar{
+    width: 1600px;
+    height: 140px;
+    top: 0;
+    background-color: transparent;
+    text-align: center;
+}
+.img4{
+    width: 146px;
+    float: left;
+    float:center;
+}
+.other{
+    float:right; 
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-right: 25px;
+    float:center;
+}
+.newstaffwords{
+    font-family: Arial;
+    font-size: 18px;
+    color: black;
+    float: left;
+    position: absolute;
+}
+.noimg{
+    border-radius: 1000px;
+    margin-top: 10px;
+    width: 200px;
+}
+.productname{
+    font-family: Arial;
+    font-size: 18px;
+    color: black;
+}
+.image{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    margin-top: 60px;
+}
+.Arrow{
+    display: inline-block;
+    margin:none;
+    text-align: center;
+}
+.quickgo{
+    margin-left: 20px;
+}
+.line{
+    background-color: black;
+    color: black;
+    width: 70%;
+    margin-right: 70%;
+}
+.noimg1{
+    width: 160px;
+}
+.productname1{
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    justify-content: center;
+    color: black;
+    margin: 0px;
+}
+.randomstafftext{
+    font-family: Arial;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 30px;
+    display: inline-block;
+}
+.image1{
+    width: 230px;
+    margin-top: 120px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    
+}
+.imageopro{
+    border-style: solid;
+    width: 500px;
+    height: 500px;
+    display: inline-flex;
+    background-image: url(th.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    margin-top: 0px;
+    justify-content: center;
+    float: left;
+    margin-left: 50px;
+}
+.buy1{
+    width: 200px;
+    height: 72px;
+    margin-right: 5px;
+    border-radius: 30px;
+    background-color: lightgreen;
+    font-size: 28px;
+    transition: all 0.6s;
+   
+}
+.buy2{
+    width: 200px;
+    height: 72px;
+    margin-right: 5px;
+    border-radius: 30px;
+    background-color: orange;
+    font-size: 28px;
+    transition: all 1s; 
+    margin-top: 50px;
+}
+.buy1:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.buy2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.wordsofproduct{
+    display: inline-flex;
+    display:inline-table;
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 60px;
+    float: right;
+    margin-right: 150px;
+}
+.buy{
+    display: block;
+    font-family: Arial;
+    font-size: xx-large;
+    margin-top: 0;
+}
+.buy5{
+    color: white;
+    display: inline-table;
+    font-family: Arial;
+    font-size: medium;
+    margin-top: 0;
+}
+.imageopro5{
+    border-style: solid;
+    border-color: white;
+    width: 195px;
+    height: 198px;
+    background-image: url(th.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    display: inline-flex;
+    float: left;
+}
+
+.buy10{
+    width: 150px;
+    height: 36px;
+    margin-right: 5px;
+    border-radius: 30px;
+    background-color: lightgreen;
+    font-size: 14px;
+    transition: all 0.6s;
+    border: none;
+    
+}
+.buy20{
+    width: 150px;
+    height: 36px;
+    margin-right: 5px;
+    border-radius: 30px;
+    background-color: orange;
+    font-size: 14px;
+    transition: all 0.5s;
+    border:none;
+    margin-left: 20px;
+}
+.buy10:hover{
+    opacity: 0.5;
+}
+.buy20:hover{
+    opacity: 0.5;
+}
+.buy10:active{
+    background-color: orange;
+}
+.buy20:active{
+    background-color: lightgreen;
+}
+.wordsofproduct1{
+    padding-left: 20px;
+    display: inline-flex;
+    display: inline-table;
+}
+.buys{
+    color: black;
+    display: block;
+    font-family: Arial;
+    font-size: 17px;
+    margin-top: 0;
+    text-decoration: none;
+}
+.buybutton{
+    display: inline-block;
+}
+.mainproducts{
+    border-style:solid;
+    border-color: black;
+    width: 900px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    height: 204px;
+    float: left;
+}
+.helpers{
+    display: inline-block;
+    color: transparent;
+}
+.main{
+    display: inline-block;
+    height: 505px;
+    width: 1600px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.newstaff{
+    width: 1500px;
+    height: 320px;
+    text-align: center;
+    padding-right: 0px;
+}
+.randomstaff{
+    width: 1500px;
+    height: 250px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.Explore{
+    display: block;
+    border-style: solid;
+    width: 1640px;
+    
+}
+.Start{
+    width: 1630px;
+    height: 500px;
+    margin-top: 100px;
+}
+.txt{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+}
+.Startpic{
+    float: right;
+    margin-right: 100px;
+    width: 600px;
+}
+.starttxt{
+
+    width: 470px;
+    text-align: center;
+    margin-top: 180px;
+    display: inline-block;
+    margin-left: 200px;
+}
+.StartNow{
+    width: 250px;
+    height: 46px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: orange;
+    transition: 0.5s;
+}
+.StartNow:hover{
+    opacity: 0.5;
+}
+.Helpper{
+    color: transparent;
+}
+.rndomitm{
+    display: inline-block;
+}
+.productas{
+    float: left;
+}
+.randomstaff1{
+margin-top: 100px;
+}
+.staff{
+    background-color: white;
+    width: 1400px;
+    margin-left: 90px;
+}
+.mainstaff{
+    float: right;
+    background-color: white;
+    height: 100%;
+}

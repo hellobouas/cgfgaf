@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>unkown for now!</title>
+
+    <style>
+
+body{
+                    background-color: black;
+                }
+                .screen{
+                    background-color: white;
+                    border-style: solid;
+                    border-color: beige;
+                    width: 100px;
+                    height: 100px;
+                    margin: 0;
+                    display: inline-block;
+                }
+                .Calculator{
+                    width: 195px;
+                    border-style: solid;
+                    border-color: rgb(0, 0, 0);
+                    height: 288px;
+                    border-radius: 25px;
+                    border-color: white;
+                    display: inline-block;
+                    margin-top: 0;
+                }
+                button{
+                    width: 45px;
+                    height: 45px;
+                    font-size: 14px;
+                    background-color: rgb(68, 67, 67);
+                    color: white;
+                    border-radius: 100px;
+                    margin-bottom: 0px;
+                    margin-top: 3px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                }
+                button:active{
+                    opacity: 0.5;
+                }
+                .signs{
+                    background-color: orange;
+                }
+                p{
+                    display: inline-block;
+                    font-size: 10px;
+                    margin: 0;
+                    color: white;
+                }
+                .clear{
+                    width: 195px;
+                    margin-bottom: 0;
+                    font-size: 30px;
+                    cursor: pointer;
+                    display: inline-block;
+                }
+                .text{
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                    display: inline-block;
+                    margin-top: 50px;
+                }
+                #screen{
+                    color: white;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    font-size: 28px;
+                    border-style: solid;
+                    border-color: darkgrey;
+                    border-top-left-radius: 25px;
+                    border-top-right-radius: 25px;
+                    
+                }
+                .Welcome{
+                    font-size: 30px;
+                    display: block;
+                }
+    </style>
+</head>
+<body>
+    
+    <div class="Calculator">
+                
+            
+            
+        <div id="screen">0</div>
+        
+        <div id="numbers">
+        <script>
+            var screen = '';
+            var screenElement = document.getElementById("screen")
+            var number2 = document.getElementById("number1")
+            let numbs = '';
+            let clear1 = ''; 
+        </script>
+        
+    
+        <div id="numbs">
+    
+            <button id="number1" onclick="
+            numbs = numbs + '1';
+            console.log(numbs)
+            screen = screen + '1';
+            screenElement.textContent = screen;
+            ">
+                1
+            </button
+            >
+    
+            <button  onclick="
+            numbs = numbs + '2';
+            console.log(numbs)
+            screen = screen + '2';
+            screenElement.textContent = screen;
+            ">
+                2
+            </button>
+    
+            <button  onclick="
+            numbs = numbs + '3';
+            console.log(numbs)
+            screen = screen + '3';
+            screenElement.textContent = screen;
+            ">
+                3
+            </button>
+    
+            <button class="signs" onclick="
+            numbs = numbs + ' + ';
+            console.log( numbs)
+            screen = screen + ' + ';
+            screenElement.textContent = screen;
+            ">
+                +
+            </button>
+        </div>
+    
+    
+        <div id="numbs">
+    
+            <button onclick="
+            numbs = numbs + '4';
+            console.log(numbs)
+            screen = screen + '4';
+            screenElement.textContent = screen;
+            ">
+                4
+            </button
+            >
+    
+            <button  onclick="
+            numbs = numbs + '5';
+            console.log(numbs)
+            screen = screen + '5';
+            screenElement.textContent = screen;
+            ">
+                5
+            </button>
+    
+            <button  onclick="
+            numbs = numbs + '6';
+            console.log(numbs)
+            screen = screen + '6';
+            screenElement.textContent = screen;
+            ">
+                6
+            </button>
+    
+            <button class="signs" onclick="
+            numbs = numbs + ' - ';
+            console.log( numbs)
+            screen = screen + ' - ';
+            screenElement.textContent = screen;
+            ">
+                -
+            </button>
+        </div>
+    
+    
+        <div id="numbs">
+    
+            <button onclick="
+            numbs = numbs + '7';
+            console.log(numbs)
+            screen = screen + '7';
+            screenElement.textContent = screen;
+            ">
+                7
+            </button
+            >
+    
+            <button  onclick="
+            numbs = numbs + '8';
+            console.log(numbs)
+            screen = screen + '8';
+            screenElement.textContent = screen;
+            ">
+                8
+            </button>
+    
+            <button  onclick="
+            numbs = numbs + '9';
+            console.log(numbs)
+            screen = screen + '9';
+            screenElement.textContent = screen;
+            ">
+                9
+            </button>
+    
+            <button class="signs" onclick="
+            numbs = numbs + ' * ';
+            console.log( numbs)
+            screen = screen + ' * ';
+            screenElement.textContent = screen;
+            ">
+                *
+            </button>
+        </div>
+    
+        <div id="numbs">
+            
+            <button onclick="
+            numbs = numbs + '0';
+            console.log(numbs)
+            screen = screen + '0';
+            screenElement.textContent = screen;
+            "
+            >
+                0
+            </button>
+            
+            <button  onclick="
+            numbs = numbs + '.';
+            console.log(numbs)
+            screen = screen + '.';
+            screenElement.textContent = screen;
+            ">
+                .
+            </button>
+    
+             <button onclick="
+            numbs = eval(numbs) 
+            console.log(numbs)
+            if (clear1 > 122){numbs = ''}
+             else{
+                numbs = numbs
+            }
+            screen = numbs;
+            screenElement.textContent = screen;
+            ">
+                =
+            </button>
+            <button class="signs" onclick="
+            numbs = numbs + '/';
+            console.log(numbs)
+            screen = screen + '/';
+            screenElement.textContent = screen;
+            ">
+                /
+            </button>
+    
+            <p><button class="clear" onclick="
+                numbs = '';
+                console.log('Cleared!')
+    
+                screen = numbs + '0';
+            screenElement.textContent = screen;
+            screen = '';
+                ">
+                Clear
+            </button></p>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>My Awesome Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        
+        .content {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        #count {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        #incrementBtn {
+            display: block;
+            width: 150px;
+            height: 50px;
+            margin: 0 auto;
+            background-color: #333;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            line-height: 50px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to My Awesome Website!</h1>
+        <div id="count">0</div>
+        <a href="#" id="incrementBtn">Click to Increment</a>
+    </div>
+    
+    <script>
+        // JavaScript code
+        var count = 0;
+        var countElement = document.getElementById("count");
+        var incrementBtn = document.getElementById("incrementBtn");
+        
+        incrementBtn.onclick = function() {
+            count++;
+            countElement.textContent = count;
+        };
+    </script>
+</body>
+</html>
